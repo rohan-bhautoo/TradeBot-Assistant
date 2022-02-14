@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TradeBot Assistant</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/all.css">
+</head>
+<body>
+    <div class="container-fluid p-0">
+        <div id="top-section" class="mb-5">
+            <div class="navbar navbar-expand-sm w-100 pr-0">
+                <a class="navbar-brand p-0" href="#"><img src="image/logo2.png" class="img-fluid" height="200px" width="200px" alt="Trade Assistant logo"></a>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tradeData">Trade Data</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="page-content">
+                <div class="row">
+                    <div class="title col-md-6 d-inline-flex flex-column justify-content-center">
+                        <h1>Invest Your Spare Change</h1>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                            nonummy nibh euismod  tincidunt ut laoreet dolore magna aliquam erat</p>
+                        <button class="btn btn-primary get-started-btn" type="button">Get Started</button>
+                    </div>
+
+                    <div class="img-container col-md-6">
+                        <img class="img-fluid" src="image/Chatbot%20UI%20Example%202.png" alt="UI-design">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-features col-md-12 mb-5" id="features">
+            <h3>Main Features</h3>
+            <p class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                tincidunt ut laoreet dolore magna aliquam erat</p>
+            <div class="row" style="padding-top: 25px">
+                <div class="col-md-4">
+                    <div class="feature shadow-sm">
+                        <i class="fas fa-exchange-alt"></i>
+                        <h4>Bilateral Trading</h4>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                            nibh euismod  tincidunt ut laoreet dolore magna aliquam erat</p>
+                    </div>
+                    <button class="btn btn-primary w-100 p-3" type="button">Learn More <i class="fas fa-chevron-right"></i></button>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="feature shadow-sm">
+                        <i class="fas fa-globe-africa"></i>
+                        <h4>International Trading</h4>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                            nibh euismod  tincidunt ut laoreet dolore magna aliquam erat</p>
+                    </div>
+                    <button class="btn btn-primary w-100 p-3" type="button">Learn More <i class="fas fa-chevron-right"></i></button>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="feature shadow-sm">
+                        <i class="fas fa-chart-line"></i>
+                        <h4>Trade Statistics</h4>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                            nibh euismod  tincidunt ut laoreet dolore magna aliquam erat</p>
+                    </div>
+                    <button class="btn w-100 p-3" type="button">Learn More <i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="line-separator mb-4">
+            <hr/>
+        </div>
+
+        <div class="trade-data col-md-12" id="tradeData">
+            <h3>Trade Data</h3>
+            <iframe name="data" src="https://app.powerbi.com/reportEmbed?reportId=0d527df7-09f4-4edb-87b1-5aecdd69ef70&autoAuth=true&ctid=38e37b88-a3a1-48cf-9f05-6537427fed24&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLW5vcnRoLWV1cm9wZS1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldC8ifQ%3D%3D" allowFullScreen="true"></iframe>
+        </div>
+
+        <div class="contact-us col-md-12" id="contact">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Get In Touch</h3>
+                    <p class="description">
+                        Please send us your reviews about the game or if you are having any issues. You
+                        can also suggest options of how the game can be improved or if new features
+                        should be added to make the gaming experience better. Thank you!
+                    </p>
+                    <hr style="width: 50%;"/>
+                    <p><i class="fas fa-map-marker-alt"></i> <span>Grand-Baie Business Park</span></p>
+                    <p><i class="fas fa-phone-alt"></i> <span>123-123-1234</span></p>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <input type="email" class="form-control" id="email-address" placeholder="Email Address">
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+                            <input type="text" class="form-control" id="fullName" placeholder="Full Name">
+                        </div>
+                    </div>
+
+                    <textarea class="form-control mb-3" id="text-area" rows="3" placeholder="Enter message..."></textarea>
+                    <button class="btn btn-primary" type="button">Send <i class="fas fa-paper-plane"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <footer class="col-md-12 ms-auto" id="footer">
+            <div class="row m-0">
+                <div class="text-center">
+                    <p class="social">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                        <a href="#" class="fab fa-pinterest-p"></a>
+                        <a href="#" class="fab fa-youtube"></a>
+                        <a href="#" class="fab fa-linkedin-in"></a>
+                    </p>
+                </div>
+
+                <div>
+                    <p class="text-center">&copy; 2021 TRADEBOT ASSISTANT</p>
+                </div>
+
+                <div class="col-md-12 text-center">
+                    <ul>
+                        <li><a href="#tradeData">TRADE MAP</a></li>
+                        <li><a href="#features">FEATURES</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/bootstrap.js"></script>
+    <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "a1307b91-afae-48ff-8132-0836d0f8f1bf", // The ID of this integration.
+            region: "eu-gb", // The region your integration is hosted in.
+            serviceInstanceID: "22b43947-235d-4307-b25e-9044e8a6950e", // The ID of your service instance.
+            onLoad: function(instance) { instance.render(); }
+        };
+        setTimeout(function(){
+            const t=document.createElement('script');
+            t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+            document.head.appendChild(t);
+        });
+    </script>
+</body>
+</html>
