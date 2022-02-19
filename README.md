@@ -1,5 +1,5 @@
 <p align="center">
-  <img height="300" src="https://github.com/rohan-bhautoo/TradeBot-Assistant/blob/main/Trade-Website/image/TradeBot-Assistant-Logo.png">
+  <img height="200" src="https://github.com/rohan-bhautoo/TradeBot-Assistant/blob/main/Trade-Website/image/TradeBot-Assistant-Logo.png">
 </p>
 <h1 align="center">TradeBot Assistant</h1>
 <p>
