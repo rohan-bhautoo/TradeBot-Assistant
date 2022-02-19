@@ -39,6 +39,33 @@
 <script src="../js/bootstrap.js"></script>
 ```
 
+## IBM Watson Assistant
+> IBM Watson Assistant uses artificial intelligence that understands customers in context to provide fast, consistent, and accurate answers across any application, device, or channel. Remove the frustration of long wait times, tedious searches, and unhelpful chatbots with the leader in trustworthy AI.
+
+### Natural Language Processing
+> Watson assistant runs different natural language processing techniques to be able to analyze a question asked by the user. Tthe main steps for parsing are tokenization and segmentation, morpho lexical analysis, and syntactic analysis. The tokens are converted to one-word phrases and shallow parsing, named-entity recognition and semantic role labelling is performed for further use in response generation.
+
+#### Shallow Parsing
+> It is the analysis of a sentence where it tells us how the sentence was generated from a set of rules and breaks it down into smallest parts which are token such as words. This is also referred to as the Part of Speech (POS) Tagging and is used to store relevant information in the dialogue history.
+<p align="center">
+  <img height="300" src="https://github.com/rohan-bhautoo/TradeBot-Assistant/blob/main/Trade-Website/image/Parse-Tree.png">
+</p>
+
+#### Named-Entity Recognition
+> Named entity recognition (NER) is an NLP technique which extracts information and classified named entities into pre-defined categories such as names, organizations, locations, percentages, quantities, etc.
+<p align="center">
+  <img width="600" src="https://github.com/rohan-bhautoo/TradeBot-Assistant/blob/main/Trade-Website/image/Extracting-entities.png">
+</p>
+
+#### Semantic Role Labeling
+> The role of sematic role labeling (SRL) is to label the arguments of a verb. In this process, the main verb is labeled followed by its arguments.
+<p align="center">
+  <img height="300" src="https://github.com/rohan-bhautoo/TradeBot-Assistant/blob/main/Trade-Website/image/Question-answering.png">
+</p>
+
+### Response Generation
+
+
 ## Usage
 
 
