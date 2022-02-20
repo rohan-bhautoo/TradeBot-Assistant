@@ -51,7 +51,7 @@
 ### Webhook
 > A webhook is a method that can call an external program, such as IBM Cloud Function, to the chatbot application. It is triggered when the assistant processes a node that has a webhook enabled. The webhook then collects data from user input and store them as parameter which is then sent as part of a HTTP POST request to the defined URL. This method was used to send data as parameters to the functions in the Cloud Function. The specified URL, from the web action in the section of IBM Cloud Function, is added in the dialog skill option. If the webhook call exceeds the 8 seconds, an error response will be shown on the web chat interface. Whenever a webhook is activated in a node, it provides a multi-conditioned response where different responses can be shown to the user if the condition is met.
 > 
-> ***```Note:``` Since all responses are returned as a JSON Object, the .json extension needs to be added in the webhook URL to ensure that the desired content type of the response will be in a JSON format.***
+> ***Note: Since all responses are returned as a JSON Object, the ```.json``` extension needs to be added in the webhook URL to ensure that the desired content type of the response will be in a JSON format.***
 > 
 > Moreover, the web action can be invoked by using the URL without authentication. To make the web action more secure, an HTTP header value X-Request-Whisk-Auth is added for authorization to invoke the webhook.
 
