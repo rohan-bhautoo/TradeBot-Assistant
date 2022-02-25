@@ -55,6 +55,31 @@
 > 
 > Moreover, the web action can be invoked by using the URL without authentication. To make the web action more secure, an HTTP header value X-Request-Whisk-Auth is added for authorization to invoke the webhook.
 
+### Intents
+> Intents are defined as the goals expressed in user’s input such as searching for something or answering a question. By recognizing the intents, Watson Assistant can choose the correct dialog node to answer the user. Based on this technique, some intents have been added to achieve dialogs like in the use cases. The training intents should contain several examples to provide a better response coverage.
+
+### Entities
+> Entities are important pieces of information in the user input to perform certain tasks . The defined entities will then be trained in Watson Assistant to be detected in different context of a user input. These important keywords will be finally stored as parameters in the dialog nodes to be sent to the cloud functions.
+
+### Contextual Entity
+> Contextual entity model consists of annotating occurrence of the defined entities in the intent’s examples. This method helps the assistant to understand how the entity is typically used in a sentence.
+
+### Slots
+> Slots is a mechanism that gathers multiple pieces of information, from a user, to give an accurate response. It also provides different ways to collect information. For example, if the user enters “Trade statistics” or any in the #Trade_Statistics intent, the slot function has been configured to detect a @Country entity and a @Period entity.
+```javascript
+if (none are found) 
+  The chatbot will first ask the user to enter a name of a country, then ask to enter the desired year
+else if (@Country is found)
+  The chatbot will ask to enter the year
+else if (@Period is found)
+	The chatbot will ask for the name of the country
+else if (both are found)
+	The chatbot will see that both required information are detected and continue the process
+```
+
+### Dialog Nodes
+> The dialog is structured in a decision tree and it defines what the assistant is able to say in response to customers. The decision tree contains several parent nodes which are further extended with child nodes.
+
 ## IBM DB2 Database
 > IBM Db2 is a relational database which offers AI capabilities for data management and advanced analytics for workloads. It was mainly chosen because of its AI functionality which provides machine learning algorithms that were able to make faster query speed improvements. IBM cloud database improves query performance by implementing indexes, materialized views and compression, which makes Db2 more efficient. The IBM cloud service provides two ways to create tables, load data and to run SQL commands, either by using the graphical user interface or the IBM command line. For this project, the GUI will be used on the [cloud website](https://cloud.ibm.com/).
 
@@ -88,7 +113,11 @@ if(!dsn) {
 ```
 
 ## Usage
-
+> Open the [Index.html](/Trade-Website/Index.html) file in your browser.
+> 
+> Click on the chatbot widget at the bottom right of the screen, to initiate the chatbot.
+> 
+> Start the conversation by choosing one of the options from the home screen or enter ``help``` to view all available features.
 
 ## Author
 
