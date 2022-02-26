@@ -113,11 +113,11 @@ if(!dsn) {
 ```
 
 ## Usage
-> Open the [Index.html](/Trade-Website/Index.html) file in your browser.
+> 1 - Open the [Index.html](/Trade-Website/Index.html) file in your browser.
 > 
-> Click on the chatbot widget at the bottom right of the screen, to initiate the chatbot.
+> 2 - Click on the chatbot widget at the bottom right of the screen, to initiate the chatbot.
 > 
-> Start the conversation by choosing one of the options from the home screen or enter ``help``` to view all available features.
+> 3 - Start the conversation by choosing one of the options from the home screen or enter ``help``` to view all available features.
 
 ## Author
 
