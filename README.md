@@ -28,7 +28,7 @@
 > Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites. The bootstrap 4 libraries are already downloaded and added in the [CSS](/Trade-Website/css) and [JS](/Trade-Website/js) folders. It is also referrenced in the [Index.html](/Trade-Website/Index.html) file. You can also download it [here](https://getbootstrap.com/docs/4.0/getting-started/introduction/).
 ```html
 <head>
-<title>TradeBot Assistant</title>
+  <title>TradeBot Assistant</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/style.css">
